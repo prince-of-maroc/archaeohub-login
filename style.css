@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    background-image: url("images/archaeo.jpeg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 33vw;
+    height: 100%;
+}
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 67vw;
+    height: 100%;
+    background-image: url('images/pattern.png');
+    background-color: rgb(66, 41, 10);
+    background-blend-mode: multiply;
+}
