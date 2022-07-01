@@ -1,3 +1,7 @@
+/* IMPORT FONTS */
+@import url('https://fontlibrary.org//face/cypro-minoan');
+/*-------------*/
+
 html, body {
     height: 100%;
 }
@@ -26,4 +30,40 @@ body {
     background-image: url('images/pattern.png');
     background-color: rgb(66, 41, 10);
     background-blend-mode: multiply;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+    font-size: 3rem;
+    user-select: none;
+    font-family: "Cypro-Minoan";
+}
+
+.logo::after{
+    content: url('images/great-sphinx-of-giza.png');
+    zoom: 50%;
+}
+
+.photo-credits {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 33%;
+    color: white;
+    text-align: center;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 30px;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: lightblue;
+
 }
