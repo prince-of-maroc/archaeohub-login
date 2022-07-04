@@ -159,3 +159,13 @@ p {
     font-size: calc(0.5rem + 1vw);
     margin-top: 5vh;
 }
+
+input:invalid {
+    border-color: red;
+}
+input:focus {
+    outline-color: blue;
+}
+input:valid {
+    border-color: green;
+}
